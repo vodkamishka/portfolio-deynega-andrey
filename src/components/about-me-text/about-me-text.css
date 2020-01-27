@@ -1,0 +1,14 @@
+
+.about-me-text-wrapper {
+    background: #292923;
+    border: 1px solid #8281F1;
+    border-right: none;
+}
+.about-me-text {
+    color: white;
+    font-size: 26px;
+}
+.about-me-text > .text {
+    transition: 1s;
+    top: 3rem; 
+}

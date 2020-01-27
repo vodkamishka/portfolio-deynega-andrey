@@ -1,0 +1,81 @@
+.my-works {
+    background: white;
+}
+.works-left { 
+    background: #292923;
+}
+.my-works .image {
+    width: 100%;
+    height: 425px;
+    border: 1px solid #292923;
+}
+.my-works .image img {
+    width: 100%;
+    height: 100%;
+}
+.my-works .text-wrapper {
+    background: #292923;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid white;  
+}
+.my-works .text-wrapper .text {
+    color: white;
+    font-size: 26px;
+    transition: 1s;
+}
+.my-works .image .cover1, .my-works .image .cover2, .my-works .image .cover3, .my-works .image .cover4 {
+    background: #fa225b;
+    position: absolute;
+    width: 0;
+    height: 425px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0
+}
+.my-works .image .cover1 .cover-text1, 
+.my-works .image .cover2 .cover-text2,
+.my-works .image .cover3 .cover-text3,
+.my-works .image .cover4 .cover-text4
+{
+    color: white;
+    font-size: 50px;
+}
+.works-top1 {
+    border-right: 50vw solid #49629b;
+    border-bottom: 25px solid #49629b;
+    border-left: 50vw solid #292923;
+    border-top: 25px solid #292923;
+}
+.works-top2 {
+    height: 50px;
+    background: #49629b;
+    width: 100%;
+}
+.works-top2 > .works-text {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.works-top2 > .works-text > .text {
+    transition: 1s;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.works-top3 {
+    border-right: 50vw solid #49629b;
+    border-top: 25px solid #49629b;
+    border-left: 50vw solid #292923;
+    border-bottom: 25px solid #292923;
+}
+.works-top4 {
+    height: 30px;
+    background: #292923;
+    width: 100%;
+}

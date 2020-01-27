@@ -1,0 +1,33 @@
+.left-panel {
+    width: 170px;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10000;
+    transition: 1s;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+.left-panel > .content {
+    transition: 1s;
+    position: absolute;
+}
+.left-panel > .content > .title {
+    padding: 3vh 25px 0 15px;
+}
+.left-panel > .content > .circle {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 10px 40px; 
+}
+.left-panel > .content > .button {
+    padding: 10px 5px;
+    width: 130px;
+    background: #293436;
+    white-space: pre-wrap;
+    margin: 15px;
+    border-radius: 10px;
+}

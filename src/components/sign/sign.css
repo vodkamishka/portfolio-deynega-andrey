@@ -1,0 +1,13 @@
+.sign {
+top: 13%;
+z-index: 10000;
+position: absolute;
+left: 25px;
+opacity:0;
+}
+.sign > .fas {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+    position: absolute;   
+}

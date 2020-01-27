@@ -1,0 +1,12 @@
+.big-photo-wrapper {
+    background: #292923;
+    border: 1px solid#8281F1;
+    border-left: 1 solid #8281F1;
+}  
+.big-photo  {
+    width: 44vw;
+    height: 30vw;
+    background: url('https://vodkamishka.github.io/portfolio-deynega-andrey/images/i.jpg') no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}

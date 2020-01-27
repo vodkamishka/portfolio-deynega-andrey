@@ -1,0 +1,19 @@
+.my-skills {
+    background:  #292923;
+}
+.ring-wrapper {
+    border: 1px solid white;
+    font-size: 25px;
+}
+.ring-wrapper > .title {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.ring-wrapper > .text {
+    font-size: 18px;
+    margin-top: 20px;
+    text-indent: 10px;
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+.flag {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    z-index: 10000;
+    transition: 1s;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+}

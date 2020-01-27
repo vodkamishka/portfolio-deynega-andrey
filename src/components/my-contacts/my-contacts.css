@@ -1,0 +1,51 @@
+.my-contacts {
+    background:  #96c577;
+    color: white;
+}
+.my-contacts > .wrapper {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.my-contacts > .wrapper > .title {
+    position: absolute;
+    transition: 1s;
+}
+.my-contacts >  .wrapper-bottom {
+    height: 76px;
+    border-top: 39px #96c577 solid;
+    border-left: 50vw #96c577 solid;
+    border-bottom: 39px #292923 solid;
+    border-right: 50vw solid #292923;
+}
+.my-contacts >  .wrapper-top {
+    height: 126px;
+    border-top: 63px #292923 solid;
+    border-left: 50vw #292923 solid;
+    border-bottom: 63px #96c577 solid;
+    border-right: 50vw solid #96c577;
+}
+.my-contacts > .contacts {
+    background: #292923;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+.contacts-text > a {
+    color: white;
+    text-decoration: none;
+}
+.linkedin {
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+.side-panel {
+    width: 250px;
+    height: 760px;
+    position: fixed;
+    top: 0;
+    transition: 1s;
+    z-index: 100000;
+    background: #292923;
+    overflow: hidden;
+}
+.wheel {
+    background: white;
+    padding: 8px 14px 8px 14px;
+    position: fixed;
+    font-size: 30px;
+    border-radius: 10px;
+    top: 30%; 
+    transform: translateX(60px);
+    transition: 1s;
+}
+.panel {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+.wheel .fas {
+    transition: 1s;
+}
+.panel > a > .frame {
+    width: 80%;
+    height: 100px; 
+    margin: 0 auto;
+}
+.panel > a > .frame >  img {
+    width: 100%;
+    height: 100%;
+}
+.panel > .title {
+    font-weight: 600;
+}
+.panel > a {
+    text-decoration: none;
+}

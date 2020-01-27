@@ -1,0 +1,25 @@
+.skills-top1 {
+    border-bottom: 25px solid #8281F1;
+    border-right: 50vw solid #292923;
+    border-top: 25px solid #292923;
+    border-left: 50vw solid #8281F1;
+}
+.skills-top-text {
+    height: 25px;
+    background: #8281F1;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.skills-top-text > .text, .skills-bottom2 > .skills-text > .text {
+    position: absolute;
+    transition: 1s;
+    left: 50%;
+    transform: translate(-50%);
+}
+.skills-top2 {
+    border-top: 25px solid #8281F1;
+    border-right: 50vw solid #292923;
+    border-bottom: 25px solid #292923;
+    border-left: 50vw solid #8281F1;
+}

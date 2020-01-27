@@ -1,0 +1,36 @@
+.about {
+    background: white;
+}
+.about > .tape > .tape-top1 {
+    height: 50px;
+    background: #292923;
+}
+.about > .tape > .tape-top2 {
+    border-top: 25px solid #292923;
+    border-right: 50vw solid #292923;
+    border-left: 50vw solid #fa225b;
+    border-bottom: 25px solid #fa225b;
+}
+.about > .tape > .tape-text {
+    background: #fa225b;
+    height: 100px;
+    font-weight: 600;
+    color: white;
+    font-size: 30px; 
+}
+.about > .tape > .tape-text > .text {
+    position: absolute;
+    left: 50%;
+    transform: transition(-50%,0);
+    transition: 1s;
+}
+.about > .tape > .tape-bottom1 {
+    border-bottom: 25px solid #292923;
+    border-left: 50vw solid #292923;
+    border-right: 50vw solid #fa225b;
+    border-top: 25x solid #fa225b;
+}
+.about > .tape > .tape-bottom2 {
+    height: 40px;
+    background: #292923;
+}

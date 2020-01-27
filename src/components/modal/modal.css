@@ -1,0 +1,57 @@
+.modal {
+    background: #402C2B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position:relative;
+    overflow: hidden;
+}
+.modal ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s; 
+}
+.modal-left {
+    background: #BA002F;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+.modal-right {
+    background: #3A6BA5;
+    height: 100vh;
+    width: 0;
+    position: absolute;
+    right: 0;
+}
+.modal-top {
+    background: #20232c;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 0;
+}
+.modal ul li {
+    color: white;
+    font-family: 'Cormorant Infant', serif; 
+    font-size: 5vh;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    padding:  10px;
+    transition: 0.5s;
+    transform: translateY(70px); 
+    opacity: 0;
+}
+.modal ul li:hover {
+    color: #fa225b;
+}
+.modal a {
+    color: white;
+    text-decoration: none;
+}
