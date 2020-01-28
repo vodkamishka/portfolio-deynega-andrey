@@ -157,6 +157,18 @@ export default class MyWorks extends Component {
                             Training project. Browser game Snake.`
                             )
                         }
+                    </div>
+                    <div className='row'>
+                        {image(
+                            5,
+                            'https://vodkamishka.github.io/portfolio-deynega-andrey/images/slider.png',
+                            'https://vodkamishka.github.io/plugin-range-slider/public/',
+                            `Тайпскрипт`,
+                            `Typescript`,
+                            `Плагин Range slider c возможностью изменять параметры реализован на Typescript c использованием архтитектуры MVC. При написании применялись webpack, scss, pag.`,
+                            `Range slider plugin implemented on Typescript using MVC architecture. When writing used webpack, scss, pag.`
+                            )
+                        }
                         
                     </div>
                 </div>

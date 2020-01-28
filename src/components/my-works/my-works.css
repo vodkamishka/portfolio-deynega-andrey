@@ -24,7 +24,7 @@
     font-size: 26px;
     transition: 1s;
 }
-.my-works .image .cover1, .my-works .image .cover2, .my-works .image .cover3, .my-works .image .cover4 {
+.my-works .image .cover1, .my-works .image .cover2, .my-works .image .cover3, .my-works .image .cover4, .my-works .image .cover5 , .my-works .image .cover6  {
     background: #fa225b;
     position: absolute;
     width: 0;
@@ -37,10 +37,15 @@
     align-items: center;
     opacity: 0
 }
+.my-works .row {
+    background: rgb(41, 41, 35);
+}
 .my-works .image .cover1 .cover-text1, 
 .my-works .image .cover2 .cover-text2,
 .my-works .image .cover3 .cover-text3,
-.my-works .image .cover4 .cover-text4
+.my-works .image .cover4 .cover-text4,
+.my-works .image .cover5 .cover-text5,
+.my-works .image .cover6 .cover-text6
 {
     color: white;
     font-size: 50px;

@@ -19,14 +19,14 @@ export default class Home extends Component {
             style = { styleRus }
             >
                 <p>Дейнега Андрей</p>
-                <p>Фронтенд. Реакт. Редакс.</p>
+                <p>Фронтенд</p>
             </div>
 
             <div className = 'home-title'
              style = { styleEng }
             >
                 <p>Deynega Andrey</p>
-                <p>Frontend. React. Redux.</p>
+                <p>Frontend</p>
             </div>
 
         </div>
