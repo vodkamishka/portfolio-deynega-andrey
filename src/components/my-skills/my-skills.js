@@ -28,7 +28,7 @@ export default function MySkills({english}) {
     {array.map(el=> {
     
     return (
-    <div key = {el.id} className  = 'col-12 col-md-4 col-lg-4 p-5 bg-info ring-wrapper'>
+    <div key = {el.id} className  = 'col-12 col-md-4 col-lg-4 p-5 bg-secondary ring-wrapper'>
     <div className = 'title'>{el.name}</div>
     </div>)
     
