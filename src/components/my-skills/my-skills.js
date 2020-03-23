@@ -17,7 +17,7 @@ export default function MySkills({english}) {
         {id: 11, name: 'GitHub', skill: "Использую гитхаб как в качестве репозитория, так и для деплоя проектов.", skill2: 'I use githubs both as a hosting and as a repository.'},
         {id: 12, name: 'npm', skill: "Регулярно использую для загрузки модулей для реакт-приложений, настройки вебпака.", skill2: 'I regularly use for loading modules for react-app.'},
         {id: 13, name: 'AJAX', skill: "Владею методами fetch, axios", skill2: 'I use the fetch method, axios'},
-        {id: 14, name: 'English language', skill: 'Уровень: pre-intermediate.  ', skill2: "Level: pre-intermediate."},
+        {id: 14, name: 'English pre-intermediate', skill: 'Уровень: pre-intermediate.  ', skill2: "Level: pre-intermediate."},
         {id: 15, name: 'BEM', skill: 'Знаю основные концепции (блок, элемент, модификатор, миксин). Применял компонентный подход на практике при верстке.', skill2: "I know the basic concepts (block, element, modifier, mixin). Used component approach in practice in layout."}
     ]
     return (
@@ -28,11 +28,8 @@ export default function MySkills({english}) {
     {array.map(el=> {
     
     return (
-    <div key = {el.id} className  = 'col-12 col-md-4 col-lg-4 p-5 bg-danger ring-wrapper'>
+    <div key = {el.id} className  = 'col-12 col-md-4 col-lg-4 p-5 bg-info ring-wrapper'>
     <div className = 'title'>{el.name}</div>
-    <div className = 'text'>{english ? el.skill2 : el.skill}</div>  
-
-
     </div>)
     
     

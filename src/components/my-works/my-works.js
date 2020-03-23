@@ -165,7 +165,7 @@ export default class MyWorks extends Component {
                             'https://vodkamishka.github.io/plugin-range-slider/public/',
                             `Тайпскрипт`,
                             `Typescript`,
-                            `Плагин Range slider c возможностью изменять параметры реализован на Typescript c использованием архтитектуры MVC. При написании применялись webpack, scss, pag.`,
+                            `Плагин Range slider c возможностью изменять параметры реализован на Typescript c использованием архитектуры MVC. При написании применялись webpack, scss, pag.`,
                             `Range slider plugin implemented on Typescript using MVC architecture. When writing used webpack, scss, pag.`
                             )
                         }
